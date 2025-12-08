@@ -19,9 +19,11 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-
+        statusBarColor()
         initRecyclerview();
     }
+
+    private void statusBarColor() {}
 
     private void initRecyclerview() {
         ArrayList<PopularDomain> items=new ArrayList<>();
