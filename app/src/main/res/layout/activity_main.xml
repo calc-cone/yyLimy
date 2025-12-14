@@ -170,8 +170,8 @@
                     <ImageView
                         android:id="@+id/imageView41"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        tools:srcCompat="@drawable/cat1" />
+                        android:layout_height="56dp"
+                        tools:srcCompat="@drawable/img_20251214_091700__220_x_220_pixel_" />
 
                     <TextView
                         android:id="@+id/textView62"
@@ -192,33 +192,11 @@
                     <ImageView
                         android:id="@+id/imageView43"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        tools:srcCompat="@drawable/cat2" />
+                        android:layout_height="55dp"
+                        tools:srcCompat="@drawable/img_20251214_091616__220_x_220_pixel_" />
 
                     <TextView
                         android:id="@+id/textView64"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:text="Legumes"
-                        android:textAlignment="center"
-                        android:textColor="@color/black" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="0.2"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:id="@+id/imageView45"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        tools:srcCompat="@drawable/cat3" />
-
-                    <TextView
-                        android:id="@+id/textView66"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -234,10 +212,32 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/imageView47"
+                        android:id="@+id/imageView45"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        tools:srcCompat="@drawable/img_20251214_091636__220_x_220_pixel_" />
+
+                    <TextView
+                        android:id="@+id/textView66"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        tools:srcCompat="@drawable/cat4" />
+                        android:layout_marginTop="8dp"
+                        android:text="Animal"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView47"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        tools:srcCompat="@drawable/img_20251214_091543__220_x_220_pixel_" />
 
                     <TextView
                         android:id="@+id/textView68"
@@ -448,7 +448,7 @@
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/qrcode"
+            android:src="@drawable/add_circle"
             app:backgroundTint="@color/green_Dark"
             app:layout_anchor="@id/appBar"
             app:maxImageSize="30dp"
